@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Imersão</title>
+</head>
+<body>
+    <header>
+        <h1>Filmes</h1>
+    </header>
+    <main>
+        <section>
+          <form>
+            <label for="busca">Pesquisar Filme ou tag:</label>
+            <input type="text" id="campo-pesquisa" placeholder="Digite o nome do filme">
+            <button type="button"  onclick="pesquisar()">Pesquisar</button>
+          </form>   
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - FilmesDoBRasil- Todos os direitos reservados</p>
+        <p>Entre em contato pelo email: kauanSantos@filmesbr</p>
+    </footer>
+    <!-- Dentro do aquivo dados, o appJs pegou e imprimiu -->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
